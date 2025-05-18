@@ -1,0 +1,151 @@
+----------------------------------------------
+Algoritmo S-DES: Modo de Operação CBC (Encriptaçao)
+Chave: 1010000010
+Mensagem: ['11010111', '01101100', '10111010', '11110000']
+
+Saídas intermediárias:
+Chave P10: 1000001100
+Chave após deslocamento circular: 00001 11000
+Chave P8: 10100100
+Chave K1: 10100100
+Chave após deslocamento circular: 00100 00011
+Chave P8: 01000011
+Chave K2: 01000011
+XOR: 10000010
+Permutação inicial: 00010001
+Expansão e Permutação: 10000010
+XOR: 00100110
+S-Boxes: 00 11
+Permutação P4: 0110
+XOR: 0111
+1º rodada de Feistel: 01110001
+Expansão e Permutação: 10111110
+XOR: 11111101
+S-Boxes: 10 00
+Permutação P4: 0001
+XOR: 0000
+2º rodada de Feistel: 00000111
+Permutação final Inversa: 00001011
+XOR: 01100111
+Permutação inicial: 11100101
+Expansão e Permutação: 10101010
+XOR: 00001110
+S-Boxes: 01 00
+Permutação P4: 1000
+XOR: 0110
+1º rodada de Feistel: 01100101
+Expansão e Permutação: 00111100
+XOR: 01111111
+S-Boxes: 00 11
+Permutação P4: 0110
+XOR: 0011
+2º rodada de Feistel: 00110110
+Permutação final Inversa: 10101001
+XOR: 00010011
+Permutação inicial: 00001101
+Expansão e Permutação: 11101011
+XOR: 01001111
+S-Boxes: 11 11
+Permutação P4: 1111
+XOR: 1111
+1º rodada de Feistel: 11111101
+Expansão e Permutação: 11111111
+XOR: 10111100
+S-Boxes: 01 01
+Permutação P4: 1100
+XOR: 0001
+2º rodada de Feistel: 00011111
+Permutação final Inversa: 10011011
+XOR: 01101011
+Permutação inicial: 10100111
+Expansão e Permutação: 10111110
+XOR: 00011010
+S-Boxes: 11 00
+Permutação P4: 1001
+XOR: 0011
+1º rodada de Feistel: 00110111
+Expansão e Permutação: 10010110
+XOR: 11010101
+S-Boxes: 11 01
+Permutação P4: 1101
+XOR: 1010
+2º rodada de Feistel: 10100011
+Permutação final Inversa: 01101010
+Blocos Cifrados: ['00001011', '10101001', '10011011', '01101010']
+Blocos Cifrados Hexadecimal: ['0b', 'a9', '9b', '6a']
+----------------------------------------------
+Algoritmo S-DES: Modo de Operação CBC (Decriptaçao)
+Chave: 1010000010
+Mensagem: ['11010111', '01101100', '10111010', '11110000']
+
+Saídas intermediárias:
+Chave P10: 1000001100
+Chave após deslocamento circular: 00001 11000
+Chave P8: 10100100
+Chave K1: 10100100
+Chave após deslocamento circular: 00100 00011
+Chave P8: 01000011
+Chave K2: 01000011
+Permutação inicial: 00000111
+Expansão e Permutação: 10111110
+XOR: 11111101
+S-Boxes: 10 00
+Permutação P4: 0001
+XOR: 0001
+1º rodada de Feistel: 00010111
+Expansão e Permutação: 10000010
+XOR: 00100110
+S-Boxes: 00 11
+Permutação P4: 0110
+XOR: 0001
+2º rodada de Feistel: 00010001
+Permutação final Inversa: 10000010
+XOR: 11010111
+Permutação inicial: 00110110
+Expansão e Permutação: 00111100
+XOR: 01111111
+S-Boxes: 00 11
+Permutação P4: 0110
+XOR: 0101
+1º rodada de Feistel: 01010110
+Expansão e Permutação: 10101010
+XOR: 00001110
+S-Boxes: 01 00
+Permutação P4: 1000
+XOR: 1110
+2º rodada de Feistel: 11100101
+Permutação final Inversa: 01100111
+XOR: 01101100
+Permutação inicial: 00011111
+Expansão e Permutação: 11111111
+XOR: 10111100
+S-Boxes: 01 01
+Permutação P4: 1100
+XOR: 1101
+1º rodada de Feistel: 11011111
+Expansão e Permutação: 11101011
+XOR: 01001111
+S-Boxes: 11 11
+Permutação P4: 1111
+XOR: 0000
+2º rodada de Feistel: 00001101
+Permutação final Inversa: 00010011
+XOR: 10111010
+Permutação inicial: 10100011
+Expansão e Permutação: 10010110
+XOR: 11010101
+S-Boxes: 11 01
+Permutação P4: 1101
+XOR: 0111
+1º rodada de Feistel: 01110011
+Expansão e Permutação: 10111110
+XOR: 00011010
+S-Boxes: 11 00
+Permutação P4: 1001
+XOR: 1010
+2º rodada de Feistel: 10100111
+Permutação final Inversa: 01101011
+XOR: 11110000
+Blocos Decriptados: ['11010111', '01101100', '10111010', '11110000']
+Blocos Decriptados Hexadecimal: ['d7', '6c', 'ba', 'f0']
+----------------------------------------------

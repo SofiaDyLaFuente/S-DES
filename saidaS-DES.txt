@@ -1,0 +1,62 @@
+----------------------------------------------
+Algoritmo S-DES: Encriptação 
+Chave: 1010000010 
+Bloco de Dados: 11010111
+
+Saídas intermediárias:
+Chave P10: 1000001100
+Chave após deslocamento circular: 00001 11000
+Chave P8: 10100100
+Chave K1: 10100100
+Chave após deslocamento circular: 00100 00011
+Chave P8: 01000011
+Chave K2: 01000011
+Permutação inicial: 11011101
+Expansão e Permutação: 11101011
+XOR: 01001111
+S-Boxes: 11 11
+Permutação P4: 1111
+XOR: 0010
+1º rodada de Feistel: 00101101
+Expansão e Permutação: 00010100
+XOR: 01010111
+S-Boxes: 01 11
+Permutação P4: 1110
+XOR: 0011
+2º rodada de Feistel: 00110010
+Permutação final Inversa: 10101000
+
+Bloco Cifrado Binário: 10101000
+Bloco Cifrado Hexadecimal: a8
+
+----------------------------------------------
+Algoritmo S-DES: Decriptação
+Chave: 1010000010
+Bloco de Dados: 11010111
+
+Saídas intermediárias:
+Chave P10: 1000001100
+Chave após deslocamento circular: 00001 11000
+Chave P8: 10100100
+Chave K1: 10100100
+Chave após deslocamento circular: 00100 00011
+Chave P8: 01000011
+Chave K2: 01000011
+Permutação inicial: 00110010
+Expansão e Permutação: 00010100
+XOR: 01010111
+S-Boxes: 01 11
+Permutação P4: 1110
+XOR: 1101
+1º rodada de Feistel: 11010010
+Expansão e Permutação: 11101011
+XOR: 01001111
+S-Boxes: 11 11
+Permutação P4: 1111
+XOR: 1101
+2º rodada de Feistel: 11011101
+Permutação final Inversa: 11010111
+
+Bloco Decriptado Binário: 11010111
+Bloco Decriptado Hexadecimal: d7
+----------------------------------------------
